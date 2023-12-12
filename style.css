@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+#profile-pic{
+    top: 4000;
+    right: 0;
+    width:200px;
+    height:200px;
+}
+
+
+:root {
+    --padding-x:4rem;
+    --padding-y: 2rem;
+    --main-background: #F2D4D6;
+}
+html, body {
+    background-color: var(--main-background);
+    color: black;
+    font-family: sans-serif;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+}
+
+aside {
+    min-width: 300px;
+    min-height: 1000px;
+    max-width: 700px;
+    background-color: #E1B0AC;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+main{
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
